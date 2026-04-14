@@ -12,9 +12,9 @@ export type Product = {
   sku: string;
   weight: number;
   dimensions: {
-    width: number;
-    height: number;
-    depth: number;
+  width: number;
+  height: number;
+  depth: number;
   };
   warrantyInformation: string;
   shippingInformation: string;

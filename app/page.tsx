@@ -36,24 +36,6 @@ export default function Home() {
       setError("Aldaa garchihlaa");
     })
   }, [skip, search]);
-
-  // TODO 4: State хувьсагчдыг зарлах (products, loading, error)
-
-  // TODO 5: Хайлтын state зарлах
-  // search - хайлтын текст, эхлэх утга: ""
-
-  // TODO 6: Pagination state зарлах
-  // total - нийт бүтээгдэхүүний тоо, эхлэх утга: 0
-  // skip  - алгассан тоо, эхлэх утга: 0
-
-  // TODO 7: useEffect-ээр өгөгдөл татах
-  // URL: search утгатай бол
-  //   `https://dummyjson.com/products/search?q=${search}&limit=${PRODUCTS_PER_PAGE}&skip=${skip}`
-  // Үгүй бол
-  //   `https://dummyjson.com/products?limit=${PRODUCTS_PER_PAGE}&skip=${skip}`
-  // dependency array: [search, skip]
-  // data.total-г total state-д хадгалах
-
   // TODO 8: Хайлт хийх handler
   // function handleSearch(e: React.ChangeEvent<HTMLInputElement>) {
   //   setSearch(e.target.value);
@@ -69,6 +51,7 @@ export default function Home() {
   // TODO 11: Алдааны төлөв (error state)
 
   return (
+    
     <div className="min-h-screen bg-zinc-50 dark:bg-zinc-950">
       {/* Header */}
       <header className="border-b border-zinc-200 bg-white dark:border-zinc-800 dark:bg-zinc-900">
