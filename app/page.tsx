@@ -57,7 +57,7 @@ export default function Home() {
           />
         </div>
 
-        <p className="mb-6 text-sm text-zinc-500 dark:text-zinc-400">{/* TODO 12: Бүтээгдэхүүний тоо харуулах */}0 products found</p>
+        <p className="mb-6 text-sm text-zinc-500 dark:text-zinc-400">{/* TODO 12: Бүтээгдэхүүний тоо харуулах */}{total} products found</p>
 
         {/* TODO 13: Доорх hardcode-г products.map() ашиглан солих */}
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
